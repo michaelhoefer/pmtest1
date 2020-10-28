@@ -1,0 +1,25 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Package Manager Test App 1",
+            "versionName": "Release 1",
+            "versionNumber": "2.0.0.NEXT",
+            "ancestorId": "Package Manager Test App 1@1.1.0-1"
+        }
+    ],
+    "namespace": "pmtest1",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "Package Manager Test App 1": "0Ho3t000000PB3hCAG",
+        "Package Manager Test App 1@1.0.0-2": "04t3t000002oaa2AAA",
+        "Package Manager Test App 1@1.1.0-1": "04t3t000002pU2IAAU",
+        "Package Manager Test App 1@1.1.1-1": "04t3t000002qVoxAAE",
+        "Package Manager Test App 1@2.0.0-1": "04t3t000002qVpbAAE",
+        "Package Manager Test App 1@2.0.0-2": "04t3t000002qWxbAAE",
+        "Package Manager Test App 1@2.0.0-3": "04t3t000002qXjBAAU",
+        "Package Manager Test App 1@2.0.0-4": "04t3t000002qXjGAAU"
+    }
+}

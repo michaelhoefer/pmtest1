@@ -1,0 +1,26 @@
+{
+  "orgName": "mhoefer company",
+  "edition": "Developer",
+    "features": [
+        "PlatformEncryption",
+        "Communities",
+        "WorkplaceCommandCenterUser",
+        "Knowledge",
+        "ForceComPlatform",
+        "PersonAccounts"
+    ],
+    "language": "en_US",
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+        "passwordPolicies": {
+            "enableSetPasswordInApi": true
+        }
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
