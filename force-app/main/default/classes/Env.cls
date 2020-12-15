@@ -5,15 +5,15 @@
 public class Env {
 
     @TestVisible
-    private static SObject cachedOrg = null;
+    private static Organization cachedOrg = null;
 
     /**
      * Retrieves information about Org
      * Currently just two fields are included; feel free to add more.
      */
-    public static SObject orgInfo() {
+    public static Organization orgInfo() {
         if (cachedOrg == null) {
-            cachedOrg = [SELECT OrganizationType, IsSandBox FROM Organization];
+            cachedOrg = [SELECT OrganizationType, InstanceName, IsSandBox FROM Organization];
         }
         return cachedOrg;
     }
