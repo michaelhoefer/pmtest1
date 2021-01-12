@@ -8,7 +8,7 @@
       "url": "https://github.com/heroku/salesforce-cli-buildpack#v3"
     },
     {
-      "url": "https://github.com/heroku/op-buildpack#v1"
+      "url": "https://github.com/michaelhoefer/op-buildpack#v1"
     }],
   "env": {
     "SFDX_DEV_HUB_AUTH_URL": {
