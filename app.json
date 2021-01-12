@@ -2,6 +2,42 @@
   "name": "pmtest1",
   "description": "PM Test One",
   "repository": "https://github.com/michaelhoefer/pmtest1",
-  "addons": []
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/salesforce-cli-buildpack#v3"
+    },
+    {
+      "url": "https://github.com/heroku/op-buildpack"
+    }],
+  "env": {
+    "SFDX_DEV_HUB_AUTH_URL": {
+      "required": true
+    },
+    "SFDX_BUILDPACK_DEBUG": {
+      "required": true
+    },
+    "HEROKU_APP_NAME" : {
+      "required": true
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup":
+        "./vendor/sfdx/release.sh ci-$HEROKU_TEST_RUN_COMMIT_VERSION && ./bin/test-setup.sh",
+        "test": "./bin/test.sh"
+      },
+      "formation": {
+        "test": {
+          "quantity": 1,
+          "size": "standard-1x"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "pr-predestroy": "./bin/delete-org.sh"
+  }
 }
 
