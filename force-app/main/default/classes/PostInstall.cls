@@ -9,5 +9,8 @@ public without sharing class PostInstall implements InstallHandler {
 
         List<Schema.Location> locs = [SELECT Id FROM Location];
         System.debug(LoggingLevel.DEBUG, locs);
+        
+        List<Account> accs = [SELECT Id FROM Account];
+        System.debug(LoggingLevel.DEBUG, accs);
     }
 }
