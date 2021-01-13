@@ -5,6 +5,6 @@ run-apex-tests: true
 apex-test-format: tap
 delete-scratch-org: false
 show-scratch-org-url: false
-open-path:
+open-path: /one/one.app#/setup/home
 import-data: false
 data-plans:

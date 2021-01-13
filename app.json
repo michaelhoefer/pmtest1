@@ -15,10 +15,10 @@
       "required": true
     },
     "SFDX_BUILDPACK_DEBUG": {
-      "required": true
+      "required": false
     },
     "HEROKU_APP_NAME" : {
-      "required": true
+      "required": false
     }
   },
   "environments": {
