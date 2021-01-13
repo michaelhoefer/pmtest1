@@ -3,7 +3,7 @@ assign-permset: false
 permset-name:
 run-apex-tests: true
 apex-test-format: tap
-delete-scratch-org: false
+delete-scratch-org: true
 show-scratch-org-url: false
 open-path: /one/one.app#/setup/home
 import-data: false
