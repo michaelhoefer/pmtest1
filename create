@@ -1,1 +1,1 @@
-sfdx force:package:version:create  -d force-app -c -x  -v mphhub -w 10 -f config/project-scratch-def.json
+sfdx force:package:version:create --codecoverage -d force-app -x -v mphhub -w 10 -f config/project-scratch-def.json

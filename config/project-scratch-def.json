@@ -13,6 +13,9 @@
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
     },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
     "securitySettings": {
         "passwordPolicies": {
             "enableSetPasswordInApi": true

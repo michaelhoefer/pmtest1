@@ -1,6 +1,6 @@
 {
   "name": "pmtest1",
-  "description": "PM Test One",
+  "description": "PM Test One!",
   "repository": "https://github.com/michaelhoefer/pmtest1",
   "addons": [],
   "buildpacks": [{"url": "https://github.com/michaelhoefer/op-buildpack"}],

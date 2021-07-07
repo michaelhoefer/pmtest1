@@ -9,5 +9,8 @@ public without sharing class PostInstall implements InstallHandler {
 
         List<Schema.Location> locs = [SELECT Id FROM Location];
         System.debug(LoggingLevel.DEBUG, locs);
+
+        DescribeCache dc = DescribeCache.getDescribeCache('Employee');
+        System.debug(LoggingLevel.DEBUG, dc);
     }
 }

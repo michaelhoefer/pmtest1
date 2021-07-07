@@ -4,10 +4,10 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="dev" />
+          <option name="connectionName" value="pmdev" />
           <option name="connectionType" value="SFDX" />
           <option name="defaultModuleName" value="pmtest1" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/dev/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/pmdev/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>
