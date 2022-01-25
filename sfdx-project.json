@@ -4,9 +4,8 @@
             "path": "force-app",
             "default": true,
             "package": "Package Manager Test App 1",
-            "versionName": "Release 1",
-            "versionNumber": "2.4.0.NEXT",
-            "ancestorId": "Package Manager Test App 1@1.1.0-1",
+            "versionName": "Release 3",
+            "versionNumber": "3.0.0.NEXT",
             "postInstallScript": "PostInstall"
         }
     ],
@@ -14,21 +13,6 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "48.0",
     "packageAliases": {
-        "Package Manager Test App 1": "0Ho3t000000PB3hCAG",
-        "Package Manager Test App 1@1.0.0-2": "04t3t000002oaa2AAA",
-        "Package Manager Test App 1@1.1.0-1": "04t3t000002pU2IAAU",
-        "Package Manager Test App 1@1.1.1-1": "04t3t000002qVoxAAE",
-        "Package Manager Test App 1@2.0.0-1": "04t3t000002qVpbAAE",
-        "Package Manager Test App 1@2.0.0-2": "04t3t000002qWxbAAE",
-        "Package Manager Test App 1@2.0.0-3": "04t3t000002qXjBAAU",
-        "Package Manager Test App 1@2.0.0-4": "04t3t000002qXjGAAU",
-        "Package Manager Test App 1@2.0.0-5": "04t3t000002qY0EAAU",
-        "Package Manager Test App 1@2.0.0-6": "04t3t000002qY0JAAU",
-        "Package Manager Test App 1@2.1.0-1": "04t3t000002qY0OAAU",
-        "Package Manager Test App 1@2.2.0-2": "04t3t000002qY0YAAU",
-        "Package Manager Test App 1@2.3.0-1": "04t3t000002qY0nAAE",
-        "Package Manager Test App 1@2.3.0-2": "04t3t000002qY0sAAE",
-        "Package Manager Test App 1@2.4.0-1": "04t3t000002qY0xAAE",
-        "Package Manager Test App 1@2.4.0-2": "04t3t000002qYi4AAE"
+        "Package Manager Test App 1": "0Ho3t000000PB3hCAG"
     }
 }
