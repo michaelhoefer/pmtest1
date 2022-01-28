@@ -1,25 +1,13 @@
 {
-  "orgName": "mhoefer company",
+  "orgName": "pmtest1 company",
   "edition": "Developer",
-    "features": [
-        "PlatformEncryption",
-        "Communities",
-        "WorkplaceCommandCenterUser",
-        "Knowledge",
-        "ForceComPlatform"
-    ],
-    "language": "en_US",
-  "settings": {
-    "lightningExperienceSettings": {
-        "enableS1DesktopEnabled": true
-    },
-    "securitySettings": {
-        "passwordPolicies": {
-            "enableSetPasswordInApi": true
-        }
-    },
-    "mobileSettings": {
-        "enableS1EncryptedStoragePref2": false
-    }
-  }
+  "features": [
+    "ForceComPlatform",
+    "EnableSetPasswordInApi",
+    "PlatformEncryption",
+    "Communities",
+    "WorkplaceCommandCenterUser"
+  ],
+  "language": "en_US",
+  "settings": {}
 }
